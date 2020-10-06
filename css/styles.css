@@ -1,0 +1,190 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height:1.5;
+}
+h3{
+  font-weight: bold;
+  font-size: 25px;
+}
+p{
+  color: #8f8f8f;
+}
+.h1{
+  font-family: "montserrat",sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+.container-fluid{
+  padding:3% 15% 7%;
+}
+/* navigation bar */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.5rem
+}
+.navbar-item{
+  padding-left: 18px;
+  padding-right: 18px;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* Tittle image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/* features */
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
+}
+.feature-box{
+  padding: 5%;
+
+}
+
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* testimonials section */
+#wishes{
+
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding:100px;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+/* CTA section */
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+  line-height: 1.5;
+
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+.cta-heading{
+  font-family: Verdana,sans-serif;
+  font-size: 3.5rem;
+}
+/* footer section */
+
+#footer{
+  padding:7% 15%;
+
+
+}
+.social-icon {
+  margin: 20px 10px;
+}
+.birthday{
+  float: left;
+}
+#AboutAggu{
+  margin: 50px 0px;
+}
+.profilePic{
+  width: 100px;
+  height: 100px;
+}
+#gallery{
+background-color: #ff4c68;
+}
+.lol{
+  color:white;
+  font-size: 25px;
+}
+.cardImage{
+  width: 200px;
+  height: 200px;
+}
+.aboutHim{
+  color:grey;
+}
+.galleryImage{
+  width: 300px;
+  height: 300px;
+}
+.galleryAgniva{
+  padding: 100px;
+}
+.padding{
+  padding-right: 150px;
+  padding-left: 150px;
+  font-family: "Montserrat";
+}
+.bold{
+  font-weight: bold;
+  padding-top: 50px;
+  color: white;
+}
